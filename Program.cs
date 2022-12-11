@@ -29,3 +29,18 @@ Console.WriteLine($" {CutNumber(456)}");*/
 645 -> 5
 78 -> третьей цифры нет
 32679 -> 6*/
+/*int ThirdDigit (int num)
+{
+    if (num >=100)
+    {
+        while (num > 999)
+        {
+            num = num /10;
+        }
+    }
+    int res = num % 10;
+    return res;
+}
+int random = new Random().Next(100,1000);
+int newNumber = ThirdDigit(random);
+Console.WriteLine($"New version of {random} is {newNumber}");*/
